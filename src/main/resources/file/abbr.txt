@@ -1,0 +1,85 @@
+（01）.RTT（Round Trip Time）：来回时延或往返时延
+（02）.ISP（Internet serviec provider）：因特网服务提供者，运营商
+（03）.TDM（Time Division Multiplexing）：时分多路复用
+（04）.FCS（Frame Check Sequence）：帧校验序列
+（05）.ARQ（Automatic Retransmission Request）：自动请求重传
+（06）.IXP（Internet eXchange Point）：因特网交换点
+（07）.WWW(World Wide Web)：万维网
+（08）.IETF(Internet Engineer Task Force):因特网工程总部
+（09）.WG(Working Group):工作组
+（10）.IRTF(Internet Research Task Force):因特网研究部
+（11）.WAN(Wide Area Network):广域网（远程网）：由节点交换机以及链路组成，广域网的协议在网络层
+（12）.MAN(Metropolitan Area Network):城域网
+（13）.LAN(Local Area Network):局域网：使用的协议主要在数据链路层
+（14）.PAN(Personal Area Network):个人区域网
+（15）.OSI/RM(Open Systems Interconnection Regerence Model),简称为OSI
+（16）.SAP(Service Access Point):服务访问点
+（17）.SDU(Service Data Unit):服务数据单元
+（18）.QAM(Quadrature Amplitude Modulation):正交振幅调制
+（19）.STP(Shielded Twisted Pair):屏蔽双绞线
+（20）.UTP(Unshielded Twisted Pair)：无屏蔽双绞线
+（21）.ADSL(Asymmetric Digital Subscriber Line):用数字技术对现有的模拟电话用户线进行改造。
+（22）.DMT(Discrete Multi-Tone):离散多音调
+（23）.DSLAM(DSL Access Multiplexer):数字用户线接入复线器
+（24）.FTTx(Fiber To The x):宽带光纤接入方式 x代表不同的光纤接入地点
+（25）.CRC(Cyclic Redundancy Check):循环冗余校验
+（26）.PPP(Point-to-Point Protocol):点对点协议
+（27）.HDLC(High-level Data Link Control):高级数据链路控制
+（28）.LCP(Link Control Protocol):链路控制协议
+（29）.NCP(Network Control Protocol):网络控制协议
+（30）.PAP（Password Authentication Protocol）：口令鉴别协议
+（31）.CHAP(Challenge-Handshake Authentication Protocol):口令握手鉴别协议
+（32）.IPCP(IP Control Protocol):IP控制协议
+（33）.LLC(Logical Link Control ):逻辑链路控制
+（34）.MAC(Medium Access Control):媒体接入控制
+（35）.CSMA/CD(Carrier Sense Access with Collision Detection):载波监听多点接入/碰创检测（冲突检测）
+（36）.RA(Registration Authority):注册管理机制
+（37）.OUI(Organizationally Unique Identifier):组织唯一表示符
+（38）.EUI(Extended Unique Identifier):扩展的唯一表示
+（39）.CFI(Canonical Format Indicator):规范格式指示符
+（40）.ARP(Address Resolution Protocol):地址解析协议
+（41）.ICMP(Internet Control Message Protocol):网际控制报文协议
+（42）.IGMP(Internet Group Management Protocol):网际组管理协议
+（43）.IP(Internet Protocol):网际协议
+（44）.VLSM(Variable Length Subnet Mask):变长子网掩码
+（45）.PING(Packet InterNet Groper):分组网间探测
+（46）.IGP(Interior Gateway Protocol):内不网关协议
+（47）.EGP(External Gateway Protocol):外部网关协议
+（48）.RIP(Rounting Information Protocol):路由信息协议
+（49）.ASN(Autonomous System Number):自治系统号
+（50）.OSPF(Open Shorttest Path First):开放最短路径有先
+（51）.MBONE(Multicast Backbone On the InterNEt):多播主干网
+（52）.RPB(Reverse Path Broadcasting):反向路径广播
+（53）.DVMRP(Distance Vector Multicast Routing Procol):距离向量多播路由选择协议
+（54）.CBT（Core Based Tree）：基于核心的转发树
+（55）.MOSPF(Multicast extensiongs to OSPF):开放最短通路有先的多播扩展
+（56）.VPN(Visual Private Network):虚拟专用网（或内联网）
+（57）.NAT(Network Address Translation):网络地址转换
+（58）.UDP(User Datagram Protocol):用户数据报协议
+（59）.TCP(Transmission Control Protocol):传输控制协议
+（60）.ARQ(Automatic Repeat reQuest):自动重传请求
+（61）.MSS(Maximum Segment Size):最大报文段长度
+（62）.FTP(FIle Transfer Protocol):文件传输协议
+（63）.TFTP(Trivial File Transfer Protocol):简单文件传送协议
+（64）.NVT(Network Virtual Terminal)：网络虚拟终端
+（65）.HTTP(HyperText Transger Protocol):超文本传送协议
+（66）.HTML(HyperText Markup Language):超文本标记语言
+（67）.URL(Uniform Resource Locator):统一资源定位符
+（68）.CGI(Common Gateway Interface):通用网关接口
+（69）.AWT(Abstract Window ToolKit):抽象窗口工具箱
+（70）.IMAP(Internet Message Access Protocol):网际报文存取协议
+（71）.DHCP(Dynamic Host Configuration Protocol):动态主机配置协议
+（72）.NOC(Network Operations Center):网络运行中心
+（73）.SNMP(Simple Network Management Protocol):简单网络管理协议
+（74）.RTSP(Real-Time Streaming Protocol):实时流式协议
+（75）.RTP(Real-Time Transport Protocol):实时运输协议
+（76）.CIDR(Classless InterDomain Routing): 无分类域间路由选择
+（77）.FDDI(Fiber Distributed Data Interface):光纤分布式数据接口
+（78）.FDM(Frequency Division Multiplexing):频分复用
+（79）.PSK(Phase-Shift Keying)：相位调制
+（80）.ASK(Amplitude-Shift Keying)：振幅调制
+（81）.FSK(Frequency-Shift Keying)：频率调制
+（82）.DNS(Domian  Name System)：域名系统
+（83）.FOMAU(Fiber Optic Media Attachment Unit): 光纤媒介附属单元
+（84）.CDMA（Code Division Multiple Access）:码分多址
+（85）.TSAP(Transport Service Access Point)：传输服务访问点

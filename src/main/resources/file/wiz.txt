@@ -1,0 +1,74 @@
+1.album:专辑
+2.barefoot:赤裸的
+3.barrage:n弹幕;阻塞
+4.bootstrap:n引导程序
+5.canonical:规范的;标准的
+6.capabilities:能力
+7.carousel:n旋转木马;轮播;行李传送带
+8.case:案例;案件
+9.catalogs:n目录;分类
+10.category:种类
+11.ceil:进一法取整
+12.clause:n条款;字句
+13.colon:冒号
+14.comma:n逗号;停顿
+15.comment:评论
+16.component:组件
+17.component:组成的:构成的
+18.constant: n不变的;常数
+19.convert:类型转换
+20.deallocate:解除分配
+21.delimiter:n定界符
+22.digest;文摘
+23.dimension:方面;维度,次元
+24.dispatcher:调度员
+25.division:分割
+26.dump:n 垃圾场,仓库,vt写下
+27.encrypt:加密;将译成密码
+28.exclusion:除外
+29.expression:表情,脸色
+30.extraneous:a外来的;没有关联的
+31.hibernate:冬眠(持久层)
+32.initial:a 初始化 -> ainitialized 初始化
+33.inject:注入;注射
+34.inspections:检查
+35.interceptor:拦截器
+36.interpreter:解释器
+37.interrupt:vt中断
+38.inverse:反转
+39.lnav:导航(ubuntu 查看日志)
+40.lunar:月亮(阴历)
+41.matrix:n矩阵
+42.meta:pref表示变化;
+43.mutual:共同的
+44.navigation:n导航;航海
+45.opacity:不透明,不传导
+46.operand:运算数
+47.operator:运算符
+48.ordinary:n普通的;平常的
+49.paradigm:范式;词形变换表
+50.persistence:n持续的,持久的
+51.plain:a简单的;清晰的;
+52.pojo:(plain old java object)abbr简单的java对象
+53.pom:(project object model)
+54.port:端口
+55.poster:n海报,广告
+56.procedure:n程序;存储过程
+57.profile:用户资料
+58.proxy:代理
+59.revert:还原;vt使恢复原状
+60.roaming:漫游;移动
+61.scatter:a分散的
+62.secret key:密钥
+63.security:a安全的
+64.shallow:浅
+65.spiral:n螺旋;旋涡
+66.spring:春天(控制层)
+67.stereotype:一层不变的;陈规
+68.struts:标记层(显示层)
+69.summary:a 简易的;n概要
+70.toggle:vt栓牢;系紧;开关;触发器
+71.trad:传统的
+72.greedy:a贪婪的;贪吃的
+73.reluctant:不情愿的
+74.possessive:a 占有的
