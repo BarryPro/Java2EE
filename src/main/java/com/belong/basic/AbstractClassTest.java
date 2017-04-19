@@ -8,7 +8,7 @@ public class AbstractClassTest {
 
 interface IA extends IB {
     int a = 0;
-    public abstract void fun();
+    void fun();
 }
 
 interface IB {

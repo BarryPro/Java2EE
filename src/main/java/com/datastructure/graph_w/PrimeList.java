@@ -19,9 +19,9 @@ public class PrimeList {
 	private class VNode {
 		char data;          // 顶点信息
 		ENode firstEdge;    // 指向第一条依附该顶点的弧
-	};
+	}
 
-	private VNode[] mVexs;  // 顶点数组
+    private VNode[] mVexs;  // 顶点数组
 	/*
 	 * 创建图(用已提供的矩阵)
 	 *
@@ -220,9 +220,9 @@ public class PrimeList {
 			this.end = end;
 			this.weight = weight;
 		}
-	};
+	}
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		char[] vexs = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
 		EData[] edges = {
 				// 起点 终点 权

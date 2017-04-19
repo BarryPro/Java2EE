@@ -211,9 +211,9 @@ public class KruskalList {
 			this.end = end;
 			this.weight = weight;
 		}
-	};
-	
-	public static void main(String[] args) {
+	}
+
+    public static void main(String[] args) {
 		char[] vexs = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
 		EData[] edges = {
 				// 起点 终点 权

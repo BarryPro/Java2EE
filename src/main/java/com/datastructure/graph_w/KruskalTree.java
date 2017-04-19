@@ -174,10 +174,10 @@ public class KruskalTree {
 			this.end = end;
 			this.weight = weight;
 		}
-	};
+	}
 
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
 		char[] vexs = {'A', 'B', 'C', 'D', 'E', 'F', 'G'};
 		int matrix[][] = {
 				/*A*//*B*//*C*//*D*//*E*//*F*//*G*/

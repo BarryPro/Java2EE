@@ -14,11 +14,7 @@ public class MD5 {
     }
     /** 检验输入的密码是否正确 */
     public static boolean verificationPassword(String password, String string) {
-        if (password.equals(encrypByMD5(string))) {
-            return true;
-        } else {
-            return false;
-        }
+        return password.equals(encrypByMD5(string));
     }
     /** 对指定的字符串进行MD5加密 */
     private static String encrypByMD5(String originString) {

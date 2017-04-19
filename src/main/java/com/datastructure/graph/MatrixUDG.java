@@ -465,7 +465,7 @@ public class MatrixUDG {
             this.end = end;
             this.weight = weight;
         }
-    };
+    }
 
 
     public static void main(String[] args) {

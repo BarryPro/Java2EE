@@ -36,7 +36,7 @@ public class QuickSort {
 				data[j] = temp; 
 				//只有经过数的交换后，才能把游标的移动位置改变，移动书序是交替改变
 				//决定下标移动，还是上标移动 ，游标更改 走下一个数据
-				flag = (flag == true) ? false : true; 
+				flag = flag != true;
 			//	flag=!flag;
 			} 
 			//将指针向前或者向后移动 ,第一次从左-》右，第二次从右-》左

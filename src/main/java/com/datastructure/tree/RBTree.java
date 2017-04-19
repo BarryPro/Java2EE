@@ -37,7 +37,7 @@ public class RBTree <T extends Comparable <T>> {//红黑树基本定义
 		return node!=null?node.color:BLACK;
 	}
 	private boolean isRed(RBTNode<T> node){
-		return ((node!=null)&&(node.color==RED))?true:false;
+		return ((node != null) && (node.color == RED));
 	}
 	private boolean isBlack(RBTNode<T> node){
 		return !isRed(node);

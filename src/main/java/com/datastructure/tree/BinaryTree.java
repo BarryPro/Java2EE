@@ -2,9 +2,9 @@ package com.datastructure.tree;
 
 public class BinaryTree {
 	public void printNode(TreeNode<String> node){
-		System.out.println(node.getData()+" ");;
-		
-	}
+		System.out.println(node.getData()+" ");
+
+    }
 	class TreeNode<T>{
 		private T data;
 		private TreeNode<T> leftNode;

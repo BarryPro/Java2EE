@@ -13,7 +13,7 @@ public class Server implements Runnable{
     private static int port;
 
     public Server(int port){
-        this.port = port;
+        Server.port = port;
     }
 
     /**

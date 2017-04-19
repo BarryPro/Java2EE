@@ -28,10 +28,7 @@ public class HashTest {
             return false;
         }
         HashTest other = (HashTest) object;
-        if (other.getI() == this.getI()) {
-            return true;
-        }
-        return false;
+        return other.getI() == this.getI();
     }
 
     public int hashCode() {

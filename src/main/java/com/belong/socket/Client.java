@@ -13,8 +13,8 @@ public class Client implements Runnable{
     private static int port;
 
     public Client(String host,int port){
-        this.host = host;
-        this.port = port;
+        Client.host = host;
+        Client.port = port;
     }
 
     /**

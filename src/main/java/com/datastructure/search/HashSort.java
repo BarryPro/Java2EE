@@ -22,7 +22,7 @@ public class HashSort<K, V> {
     // 自己设置容量和装载因子的构造器
     public HashSort(int init_Capaticy, float load_factor) {
 
-        this.LOAD_FACTOR = load_factor;
+        LOAD_FACTOR = load_factor;
         //能存的最大的数
         max = (int) (init_Capaticy * load_factor);
         //开辟空间
