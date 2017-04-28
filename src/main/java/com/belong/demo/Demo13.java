@@ -2,7 +2,12 @@ package com.belong.demo;
 
 import java.util.Scanner;
 
-public class Main {
+/**
+ * @Description: <p></p>
+ * @Author: belong.
+ * @Date: 2017/4/27.
+ */
+public class Demo13 {
     public static void main(String[] args) {
         Scanner cin = new Scanner(System.in);
         while (cin.hasNext()) {
