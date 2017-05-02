@@ -560,6 +560,8 @@ function ktSystemAddToFriends(user_id, message, callback) {
     });
 }
 
+
+
 function ktSystemSubscribeToUser(user_id, callback) {
     commonSendRequestTxt('?mode=async&action=subscribe&subscribe_user_id=' + encodeURIComponent(user_id) + '&rand=' + new Date().getTime(), null, false, function(result) {
         callback(result);
