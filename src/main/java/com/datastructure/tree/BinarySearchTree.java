@@ -133,7 +133,7 @@ public class BinarySearchTree<T extends Comparable<? super T>> {
 	 * 		  /     \
 	 * 		2        8
 	 *     /  \     /  \
-	 *    1     4       9
+	 *    1    4       9
 	 *        /  
 	 *       3  
 	 * 
@@ -167,7 +167,7 @@ public class BinarySearchTree<T extends Comparable<? super T>> {
 	 * 		  /     \
 	 * 		2        8
 	 *     /  \     /  \
-	 *    1     4       9
+	 *    1    4       9
 	 *        /  
 	 *       3  
 	 * 
