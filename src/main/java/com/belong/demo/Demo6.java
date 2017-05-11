@@ -1,5 +1,7 @@
 package com.belong.demo;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.Semaphore;
@@ -26,5 +28,6 @@ public class Demo6 {
         if(s1 == "hello"){
             System.out.println("ok");
         }
+        System.out.println(StringUtils.repeat("belong.",2));
     }
 }
