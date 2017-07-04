@@ -4,6 +4,8 @@ import java.io.*;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * 用于转换sql脚本的表空间替换实现类
@@ -14,23 +16,26 @@ import java.util.List;
  * Created by belong on 2017/3/10.
  */
 public class SQL {
-    private static final String OLD_STR = "ACCT_DATA_02";
-    private static final String NEW_STR = "CUST_DATA_01";
 
     public static void main(String[] args) {
-        replace(cmd());
+        cmd();
     }
 
     public static List<String> cmd(){
         List<String> cmd = new ArrayList();
-        URL path = SQL.class.getClassLoader().getResource("cmd.txt");
+        URL path = SQL.class.getClassLoader().getResource("file/cmd.txt");
         try {
             BufferedReader reader =
                     new BufferedReader(new InputStreamReader(new FileInputStream(path.getPath())));
             String text = "";
+            String reg = ".*DBACCADM\\.(.*)";
+            Pattern pattern = Pattern.compile(reg);
             while ((text = (reader.readLine())) != null){
-                System.out.println(text);
-                cmd.add(text);
+                Matcher matcher = pattern.matcher(text);
+                if(matcher.find()){
+                    System.out.println(matcher.group(1));
+                }
+                //cmd.add(text);
             }
         } catch (Exception e) {
             e.printStackTrace();

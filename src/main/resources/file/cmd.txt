@@ -1,21 +1,74 @@
-ACCT_DATA_02
-ACCT_IDX_02
+drop index DBACCADM.IDX_BAL_LOGINOPR_INFO_02
+                    *
+ERROR at line 1:
+ORA-01418: specified index does not exist
+
+
+
+drop index DBACCADM.IDX_CCT_CREDIT_INFO_IX1
+                    *
+ERROR at line 1:
+ORA-01418: specified index does not exist
+
+
+
+alter table DBACCADM.BAL_RETURNACCTBOOK_INFO drop primary key
+*
+ERROR at line 1:
+ORA-02441: Cannot drop nonexistent primary key
 
 
 
 
+drop index DBACCADM.IDX_BAL_MICROPAY_INFO_01
+                    *
+ERROR at line 1:
+ORA-01418: specified index does not exist
+
+
+
+drop index DBACCADM.IDX_BAL_MICROPAY_INFO_02
+                    *
+ERROR at line 1:
+ORA-01418: specified index does not exist
+
+
+alter table DBACCADM.BAL_PAYCARD_RECD drop primary key
+*
+ERROR at line 1:
+ORA-02441: Cannot drop nonexistent primary key
 
 
 
 
+drop index DBACCADM.IDX_BAL_PAYCARD_RECD_01
+                    *
+ERROR at line 1:
+ORA-01418: specified index does not exist
 
 
 
+drop index DBACCADM.IDX_GRPCREDIT_UNITID
+                    *
+ERROR at line 1:
+ORA-01418: specified index does not exist
+
+
+alter table DBACCADM.bal_shortmsg_info drop primary KEY
+*
+ERROR at line 1:
+ORA-02441: Cannot drop nonexistent primary key
 
 
 
+drop index DBACCADM.PK_bal_shortmsg_info
+                    *
+ERROR at line 1:
+ORA-01418: specified index does not exist
 
 
 
-
-
+drop index DBACCADM.IDX_ACT_BILLSCHEME_INFO_01
+                    *
+ERROR at line 1:
+ORA-01418: specified index does not exist
