@@ -153,7 +153,36 @@ public class RedBlackTree<T extends Comparable> {
      * @param x 修复新插入的节点
      */
     private void fixAfterInsertion(Node x) {
+        // 新插入的节点的颜色是红色
+        x.color = RED;
+        // 直到x节点的父节点不是空，且x的父节点不是红色
+        while (x != null && x != root && x.parent.color == RED) {
+            // 如果x的父节点是其父节的左子树（情形4）
+            if (parentOf(x) == leftOf(parentOf(x))) {
 
+            }
+        }
+
+    }
+
+    /**
+     * 获得指定节点的左子节点
+     *
+     * @param p
+     * @return
+     */
+    private Node leftOf(Node p) {
+        return (p == null ? null : p.left);
+    }
+
+    /**
+     * 获得指定节点的父节点
+     *
+     * @param p
+     * @return
+     */
+    private Node parentOf(Node p) {
+        return (p == null ? null : p.parent);
     }
 
     /**
@@ -162,6 +191,7 @@ public class RedBlackTree<T extends Comparable> {
      * 步骤：
      * 1、以排序二叉树的方法删除指定的节点
      * 2、进行颜色调节和树旋转，使之满足红黑树的特征
+     *
      * @param ele 移除指定的ele元素
      */
     public void remove(T ele) {
