@@ -1,3 +1,5 @@
+package com.test;
+
 interface InterA {
  
     void interA();
