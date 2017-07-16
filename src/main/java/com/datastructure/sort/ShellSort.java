@@ -2,16 +2,24 @@ package com.datastructure.sort;
 
 import java.util.Arrays;
 
+/**
+ * The type Shell sort.
+ */
 /*
  * belong
- * 2012-02-07
  * h是先4组排序后每个排序(直接插入排序法)
  */
 public class ShellSort {
+	/**
+	 * The constant count.
+	 */
 	public static int count = 0;
 	private int [] data={47,55,10,40,15,94,5,70};
-	
-	public  void shellSort(){   
+
+	/**
+	 * Shell sort.
+	 */
+	public  void shellSort(){
 		System.out.println("原始数组：");
 		System.out.println(Arrays.toString(data));
 		System.out.println("-------------------");
@@ -47,9 +55,14 @@ public class ShellSort {
 			//h=4的最终结果是[15, 55, 5, 40, 47, 94, 10, 70]
 			h = (h - 1) / 3;//反向计算h序列,
 		}
-	}   
+	}
 
-	public static void main(String[] args){   
+	/**
+	 * Main.
+	 *
+	 * @param args the args
+	 */
+	public static void main(String[] args){
 		ShellSort s=new ShellSort();
 		s.shellSort();		
 	}
